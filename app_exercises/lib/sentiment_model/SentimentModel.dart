@@ -9,7 +9,7 @@ class SentimentModel {
   SentimentModel.fromMap(Map<String, dynamic> map)
       : id = map["id"],
         sentindo = map["sentindo"],
-        data = map["data"];
+        data = map['data'];
 
   Map<String, dynamic> toMap() {
     return {
